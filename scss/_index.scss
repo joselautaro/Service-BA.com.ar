@@ -1,9 +1,11 @@
-section{
+/* Banner */
+.section-banner{
     p{
         font-size: large;
-        text-align:center;
+        text-align:left;
+        font-family: 'LG-regular';
     }
-    div{
+    .banner{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -19,5 +21,23 @@ section{
             }
         }
     }
+}
+
+/*Electrodomésticos*/
+.section-electrodomesticos{
+    margin-top: 20px;
+    p{
+        text-align: center;
+        font-family: 'LG-bold';
+        color: $negro;
+        font-size: 40px;
+    }
+    .electrodomesticos{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
 }
     

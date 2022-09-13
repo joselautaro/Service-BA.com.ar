@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -7,34 +8,52 @@
 /*LG Smart regular*/
 @font-face {
   font-family: "LG-regular";
-  src: url(tipografia/LG\ Smart\ Regular.woff);
+  src: url(../css/tipografia/LGSmartRegular.woff);
 }
 @font-face {
   font-family: "LG-bold";
-  src: url(tipografia/LG\ Smart\ Bold.woff);
+  src: url(../css/tipografia/LGSmartBold.woff);
 }
 header {
   font-family: "LG-bold";
   font-size: large;
 }
 
-section p {
+/* Banner */
+.section-banner p {
   font-size: large;
-  text-align: center;
+  text-align: left;
+  font-family: "LG-regular";
 }
-section div {
+.section-banner .banner {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../medios/banner-provis.jpg);
   height: 250px;
 }
-section div p {
+.section-banner .banner p {
   color: white;
   font-size: 50px;
   font-family: "LG-bold";
   line-height: 0.7;
 }
-section div p span {
+.section-banner .banner p span {
   font-size: 30px;
+}
+
+/*Electrodomésticos*/
+.section-electrodomesticos {
+  margin-top: 20px;
+}
+.section-electrodomesticos p {
+  text-align: center;
+  font-family: "LG-bold";
+  color: black;
+  font-size: 40px;
+}
+.section-electrodomesticos .electrodomesticos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
