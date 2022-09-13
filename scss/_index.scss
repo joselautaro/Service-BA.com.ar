@@ -1,0 +1,23 @@
+section{
+    p{
+        font-size: large;
+        text-align:center;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../medios/banner-provis.jpg);
+        height: 250px;
+        p{
+            color: $blanco;
+            font-size:50px;
+            font-family: 'LG-bold';
+            line-height: 0.7;
+            span{
+                font-size: 30px;
+            }
+        }
+    }
+}
+    

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "LG-regular";
+}
+
 /*LG Smart regular*/
 @font-face {
   font-family: "LG-regular";
@@ -10,10 +16,25 @@
 header {
   font-family: "LG-bold";
   font-size: large;
-  font-weight: bolder;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+section p {
+  font-size: large;
+  text-align: center;
+}
+section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../medios/banner-provis.jpg);
+  height: 250px;
+}
+section div p {
+  color: white;
+  font-size: 50px;
+  font-family: "LG-bold";
+  line-height: 0.7;
+}
+section div p span {
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
