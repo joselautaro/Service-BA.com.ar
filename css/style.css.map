@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/_paleta-tipografia.scss","style.css"],"names":[],"mappings":"AAAA,mBAAA;AACA;EACI,yBAAA;EACA,4CAAA;ACCJ","file":"style.css"}
+{"version":3,"sources":["../scss/_paleta-tipografia.scss","style.css","../scss/_header-footer.scss","../scss/style.scss"],"names":[],"mappings":"AAAA,mBAAA;AACA;EACI,yBAAA;EACA,4CAAA;ACCJ;ADEA;EACI,sBAAA;EACA,yCAAA;ACAJ;ACRA;EACI,sBAAA;EACA,gBAAA;EACA,mBAAA;ADUJ;;AEXA;EACI,SAAA;EACA,UAAA;AFcJ","file":"style.css"}
